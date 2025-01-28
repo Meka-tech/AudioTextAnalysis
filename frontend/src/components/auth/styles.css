@@ -1,0 +1,72 @@
+.main {
+  border-radius: 10px;
+  width: 50rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  color: white;
+  padding: 4rem;
+  transition: ease-in 0.2s all;
+  max-width: 90%;
+}
+
+.mainheader {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.headerButton {
+  cursor: pointer;
+  padding-bottom: 0.3rem;
+}
+
+.headerButton h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputItem {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.inputLabel {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.input {
+  all: unset;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  justify-items: start;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  background-color: #0476d0;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
